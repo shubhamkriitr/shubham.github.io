@@ -1,0 +1,25 @@
+{
+  "name": "shubham.github.io",
+  "version": "1.0.0",
+  "main": "res/sass/mystyle.css",
+  "devDependencies": {
+    "bulma": "^0.9.4",
+    "node-sass": "^8.0.0"
+  },
+  "scripts": {
+    "css-build": "node-sass --omit-source-map-url res/sass/mystyle.scss res/css/mystyle.css",
+    "css-watch": "npm run css-build -- --watch",
+    "start": "npm run css-watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shubhamkriitr/shubham.github.io.git"
+  },
+  "author": "Shubham Kumar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shubhamkriitr/shubham.github.io/issues"
+  },
+  "homepage": "https://github.com/shubhamkriitr/shubham.github.io#readme",
+  "description": ""
+}
