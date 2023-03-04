@@ -5,36 +5,36 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>My custom Bulma website</title>
-    <link rel="stylesheet" href="css/mystyles.css">
+    <link rel="stylesheet" href="res/css/mystyle.css">
+    <link rel="stylesheet" href="res/css/basics.css">
   </head>
-  <body>
-     <h1 class="title">
-        Bulma
-      </h1>
+  <body >
+    <header class="line has-background-primary"></header>
 
-      <p class="subtitle">
-        Modern CSS framework based on <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Basic_Concepts_of_Flexbox">Flexbox</a>
-      </p>
+     <section>
+      <div class="container">
+        <div class="columns">
+          <div class="column ">
+            
+              <div class="media " style="justify-content: center">
+                  <figure class="image is-128x128">
+                    <img src="res/images/profile_picture_00.png" class="is-rounded" alt="Profile picture">
+                  </figure>
+              </div>
 
-      <div class="field">
-        <div class="control">
-          <input class="input" type="text" placeholder="Input">
+            </div>
+            <div class="column has-text-centered">
+              <h1 class="title is-size-1">Shubham Kumar</h1>
+              <p class="subtitle">M.Sc. Computer Science @ ETH Zurich</p>
+            </div>
+            <div class="column"></div>
+          </div>
+
+          
+
         </div>
-      </div>
+     </section>
+     <hr/>
 
-      <div class="field">
-        <p class="control">
-          <span class="select">
-            <select>
-              <option>Select dropdown</option>
-            </select>
-          </span>
-        </p>
-      </div>
-
-      <div class="buttons">
-        <a class="button is-primary">Primary</a>
-        <a class="button is-link">Link</a>
-      </div>
   </body>
 </html>
