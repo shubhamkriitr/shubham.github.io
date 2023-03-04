@@ -177,3 +177,37 @@
       </div>
      </section>
 ```
+
+
+# Timeline based work ex
+```html
+
+     <section>
+      <div class="container">
+        <div class="columns">
+          <div class="column is-11 is-offset-0 is-offset-1-mobile is-10-mobile">
+            <div class="content">
+            <h4 class="title">Work Experience</h4>
+            <div class="timeline">
+              <div class="timeline-item">
+                <div class="timeline-marker">
+                  <!-- <i class="fa fa-flag"></i> -->
+                </div>
+                <div class="timeline-content">
+                  <p class="heading">October 2020 - September 2021</p>
+                  <div class="box">
+                    <p><span class="has-text-weight-medium" >Oracle India Private Limited - Oracle Cloud AI Services (OCAS); </span> <span class="has-text-weight-medium">Bengaluru, India</span><br/><span class="is-italic">Member of Technical Staff;</span><span class="is-italic"> October 2020 - September 2021</span></p>
+                  <p class="has-text-weight-normal is-size-6">
+                    In this role at OCAS, I worked on end-to-end experimentation with deep learning models for NLP, making them production
+                    ready and implementing APIs to expose them as cloud services.</p>
+                  
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+      </section>
+```
