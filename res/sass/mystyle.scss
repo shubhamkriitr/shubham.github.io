@@ -27,3 +27,31 @@
 @import "../../node_modules/bulma/bulma.sass";
 @import "../../node_modules/bulma-social/css/all.css";
 @import "../../node_modules/bulma-timeline/dist/css/bulma-timeline.sass";
+
+.sk-workexp-role {
+    @extend .is-size-6;
+    @extend .has-text-weight-normal;
+    @extend .is-family-primary;
+    // @extend .tag;
+}
+
+.sk-workexp-institution {
+    @extend .is-size-6;
+    @extend .has-text-weight-light;
+    // @extend .tag;
+}
+
+.sk-workexp-dates {
+    @extend .is-size-7;
+    // @extend .tag;
+    @extend .is-primary;
+    @extend .is-light;
+    // @extend .has-background-warning-dark;
+    // @extend .tag;
+}
+
+.sk-workexp-text {
+    @extend .has-text-weight-light;
+    // @extend .is-size-7;
+    font-size: 0.8rem !important;
+}
